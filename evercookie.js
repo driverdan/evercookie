@@ -374,6 +374,7 @@ this.evercookie_lso = function(name, value)
 	var attributes       = {};
 	attributes.id        = "myswf";
 	attributes.name      = "myswf";
+	attributes.style     = "display:none";
 	swfobject.embedSWF("evercookie.swf", "swfcontainer", "1", "1", "9.0.0", false, flashvars, params, attributes);
 }
 
